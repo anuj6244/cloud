@@ -10,3 +10,4 @@ RUN cp -rvf education-time/* .
 RUN rm -rf education-time education-time.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
+
